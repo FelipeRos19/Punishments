@@ -1,0 +1,9 @@
+MySQL:
+  user: "root"
+  password: ""
+  host: "localhost"
+  port: 3306
+  database: "punishments"
+
+Erros:
+  Sem_Permissao: "&c&lERRO&c: Você não tem permissão para executar este Comando!"

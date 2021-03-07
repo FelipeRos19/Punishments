@@ -1,0 +1,14 @@
+name: Punishment
+version: ${project.version}
+main: br.com.fimosecraft.punishment.Punishment
+api-version: 1.16
+authors: [ FelipeSz_19 ]
+description: Plugin de Punições
+commands:
+  punir:
+    description: Comando de Punir
+  check:
+    description: Comando de Verificar Jogador
+    permission-message:
+  ban:
+    description: Teste
