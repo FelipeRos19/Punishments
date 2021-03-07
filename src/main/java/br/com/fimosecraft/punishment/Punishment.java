@@ -1,6 +1,5 @@
 package br.com.fimosecraft.punishment;
 
-import br.com.fimosecraft.punishment.Commands.BanCommand;
 import br.com.fimosecraft.punishment.Commands.CheckCommand;
 import br.com.fimosecraft.punishment.Commands.PunirCommand;
 import br.com.fimosecraft.punishment.Data.Config.PunishmentFile;
@@ -50,7 +49,6 @@ public final class Punishment extends JavaPlugin {
     public void registerCommands() {
         new PunirCommand(this);
         new CheckCommand(this);
-        getCommand("ban").setExecutor(new BanCommand());
     }
 
     public void registerEvents() {
